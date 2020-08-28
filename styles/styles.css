@@ -1,0 +1,213 @@
+/* -------------------- Paramètres -------------------- */
+/* font-family: 'Expletus Sans', cursive; */
+/* font-family: 'Rubik', sans-serif; */
+
+
+
+/* -------------------- Générique -------------------- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+/* Enlever la marge sur les H1 et H2 */
+/* ---------- Titre(s) et sous-titre(s) ---------- */
+h1, h2{
+    margin: 0;
+}
+
+
+/* Enlever la liste à puce sur tous les LI */
+/* ---------- Liste(s) ---------- */
+li{
+    list-style: none;
+}
+
+/* -------------------- Éléments -------------------- */
+body{
+    margin: 0;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/* ---------- Balise a ---------- */
+a{
+    color: #2D2D2D;
+
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+
+/* ---------- Balises de titre et de sous-titres ---------- */
+h1{
+    font-family: Expletus Sans, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+}
+
+h2{
+    font-family: Expletus Sans, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+
+    color: #FFFFFF;
+}
+
+
+
+/* -------------------- Composants -------------------- */
+.conteneur{
+    max-width: 1140px;
+
+    margin: 0 auto;
+}
+
+
+/* ---------- header ---------- */
+.header-principal{
+    background-color: #FF9800;
+
+    height: 61px;
+}
+
+
+.nav-principale{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 20px;
+}
+
+
+/* ---------- Titre ---------- */
+.hero{
+    background-color: #FFC107;
+
+    min-height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    padding: 88px 0;
+}
+
+
+/* ---------- Articles ---------- */
+.information{
+    padding: 30px 0;
+}
+
+.information .conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carte{
+    width: 31%;
+
+    background-color: #F0F0F0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.carte header{
+    padding: 60px 0;
+
+    text-align: center;
+}
+
+.carte:nth-child(1) header {
+    background-color: #E34E26;
+                    }
+
+.carte:nth-child(2) header {
+                        background-color: #0270BB;
+                    }
+
+.carte:nth-child(3) header {
+                        background-color: #F8DC3B;
+                    }
+
+/* ----- Pied de page des articles ----- */
+.conteneur .content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+
+    padding: 20px;
+}
+
+.carte-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carte-footer span{
+    color: #E64A19;
+}
+
+.bouton{
+    background: #FFC107;
+
+    border: 1px solid #E64A19;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    padding: 10px;
+}
+
+.bouton:hover{
+    background: #E64A19;
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+/* ---------- Pied de page ---------- */
+.footer-principal{
+    background-color: #E64A19;
+
+    min-height: 60px;
+}
+
+.conteneur h3{
+    padding: 21px 0;
+
+    color: #FFFFFF;
+}
+
+
+
+/* -------------------- Aide stylistique -------------------- */
